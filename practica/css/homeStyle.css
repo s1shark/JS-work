@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Jedi';
+    src: url(../fonts/jedi-font/Jedi.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+h1 img{
+    width: 50%;
+    filter: drop-shadow(1px 1px 5px rgb(32, 108, 207));
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.column img {
+    width: 550px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+span{
+    position: absolute;
+    font-family: 'Jedi';
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.characters{
+    left: 46.5px;
+    top: 69%;
+    color: red !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}
+.films{
+    left: 715px;
+    top: 69%;
+    color: yellow !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}
+.species{
+    right: 46.5px;
+    top: 69%;
+    color: red !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}
+
+.starShips{
+    left: 46.5px;
+    top: 104%;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}
+.vehicles{
+    right: 715px;
+    top: 104%;
+    color: #90caf9 !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}
+.planets{
+    right: 46.5px;
+    top: 104%;
+    color: yellow !important;
+    background-color: rgba(0, 0, 0, .5);
+    width: 550px;
+}

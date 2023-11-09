@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+}
+h1 img{
+    width: 50%;
+    filter: drop-shadow(1px 1px 5px rgb(32, 108, 207));
+}
+.content{
+    margin: 15px 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.card{
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(32, 108, 207);
+    transform: scale(1.05);
+    position: relative;
+    z-index: 2;
+    transition: transform 0.5s;
+    box-shadow: 0px 0px 10px #ea39b8e6;
+}
+.card-header{
+    font-size: 1.5em;
+}
+ol li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #ece9e9;
+    background-color: #ece9e9;
+    width: 30px;
+}
+ol{
+    text-align: center;
+    word-spacing: 10px;
+}
+a{
+    text-decoration: none;
+}
+.details{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .card-title{
+    margin-top: 50px;
+}
+.border-info{
+    background-color: rgba(0, 0, 0, .9);
+    display: flex;
+    flex-direction: row;
+}
+.border-info img{
+    width: 300px;
+}
+.details i{
+    content: '\2718';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+ul.card-text li{
+    list-style-type: none;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    line-height: 40px;
+}
+ul.card-text li span:first-child{
+    color: #1ba2f6;
+}
